@@ -43,7 +43,7 @@ task debugUnitTestWithCoverage(type: JacocoReport,
 android {
     compileSdkVersion 33
     defaultConfig {
-        applicationId "com.example.jonathan.webjsonviewer"
+        applicationId "com.example.jonathan.retrofitwebjsonviewer"
         minSdkVersion 28
         targetSdkVersion 33
         versionCode = 1
@@ -115,5 +115,9 @@ dependencies {
     implementation 'org.jetbrains:annotations:16.0.2'
     implementation 'androidx.recyclerview:recyclerview:1.2.1'
     implementation 'androidx.core:core-ktx:+'
+    implementation 'androidx.test.ext:junit-ktx:1.1.3'
     testImplementation 'junit:junit:4.13.1'
+    // for app/src/androidTest:
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 }
