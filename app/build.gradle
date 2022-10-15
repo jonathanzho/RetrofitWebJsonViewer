@@ -1,5 +1,6 @@
 apply plugin: 'com.android.application'
 apply plugin: 'jacoco'
+apply plugin: 'org.jetbrains.kotlin.android'
 
 jacoco {
     toolVersion = "0.8.5"
@@ -39,11 +40,11 @@ task debugUnitTestWithCoverage(type: JacocoReport,
 }
 
 android {
-    compileSdkVersion 30
+    compileSdkVersion 33
     defaultConfig {
         applicationId "com.example.jonathan.webjsonviewer"
         minSdkVersion 28
-        targetSdkVersion 30
+        targetSdkVersion 33
         versionCode = 1
         versionName = (new java.text.SimpleDateFormat("yy.MM.dd-HHmm")).format(new Date()) +
                 "-" + "git rev-parse HEAD".execute().text.trim().substring(0,7)
@@ -112,5 +113,6 @@ dependencies {
     implementation 'androidx.cardview:cardview:1.0.0'
     implementation 'org.jetbrains:annotations:16.0.2'
     implementation 'androidx.recyclerview:recyclerview:1.2.1'
+    implementation 'androidx.core:core-ktx:+'
     testImplementation 'junit:junit:4.13.1'
 }
