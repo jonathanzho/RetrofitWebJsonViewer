@@ -1,4 +1,4 @@
-package com.example.jonathan.webjsonviewer.network;
+package com.example.jonathan.retrofitwebjsonviewer.network;
 
 import android.util.Log;
 

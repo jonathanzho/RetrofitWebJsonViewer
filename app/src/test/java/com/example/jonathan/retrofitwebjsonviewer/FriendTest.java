@@ -1,8 +1,8 @@
-package com.example.jonathan.webjsonviewer;
+package com.example.jonathan.retrofitwebjsonviewer;
 
 import static org.junit.Assert.assertEquals;
 
-import com.example.jonathan.webjsonviewer.model.Friend;
+import com.example.jonathan.retrofitwebjsonviewer.model.Friend;
 
 import org.junit.Test;
 

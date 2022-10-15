@@ -1,4 +1,4 @@
-package com.example.jonathan.webjsonviewer.ui;
+package com.example.jonathan.retrofitwebjsonviewer.ui;
 
 import android.os.Bundle;
 import android.util.Log;
@@ -7,11 +7,11 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.jonathan.webjsonviewer.R;
-import com.example.jonathan.webjsonviewer.adapter.CustomerAdapter;
-import com.example.jonathan.webjsonviewer.model.Customer;
-import com.example.jonathan.webjsonviewer.network.GetCustomerDataService;
-import com.example.jonathan.webjsonviewer.network.RetrofitInstance;
+import com.example.jonathan.retrofitwebjsonviewer.R;
+import com.example.jonathan.retrofitwebjsonviewer.adapter.CustomerAdapter;
+import com.example.jonathan.retrofitwebjsonviewer.model.Customer;
+import com.example.jonathan.retrofitwebjsonviewer.network.GetCustomerDataService;
+import com.example.jonathan.retrofitwebjsonviewer.network.RetrofitInstance;
 
 import org.jetbrains.annotations.NotNull;
 

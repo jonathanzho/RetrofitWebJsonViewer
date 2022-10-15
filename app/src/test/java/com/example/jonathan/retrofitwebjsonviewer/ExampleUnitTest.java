@@ -1,4 +1,4 @@
-package com.example.jonathan.webjsonviewer;
+package com.example.jonathan.retrofitwebjsonviewer;
 
 import org.junit.Test;
 

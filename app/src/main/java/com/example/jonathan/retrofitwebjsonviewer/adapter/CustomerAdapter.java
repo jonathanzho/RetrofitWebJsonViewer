@@ -1,4 +1,4 @@
-package com.example.jonathan.webjsonviewer.adapter;
+package com.example.jonathan.retrofitwebjsonviewer.adapter;
 
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -9,8 +9,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.jonathan.webjsonviewer.R;
-import com.example.jonathan.webjsonviewer.model.Customer;
+import com.example.jonathan.retrofitwebjsonviewer.R;
+import com.example.jonathan.retrofitwebjsonviewer.model.Customer;
 
 import java.util.ArrayList;
 

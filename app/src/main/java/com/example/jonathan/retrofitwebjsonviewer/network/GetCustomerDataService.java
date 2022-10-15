@@ -1,6 +1,6 @@
-package com.example.jonathan.webjsonviewer.network;
+package com.example.jonathan.retrofitwebjsonviewer.network;
 
-import com.example.jonathan.webjsonviewer.model.Customer;
+import com.example.jonathan.retrofitwebjsonviewer.model.Customer;
 
 import java.util.List;
 

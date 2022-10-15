@@ -1,4 +1,4 @@
-package com.example.jonathan.webjsonviewer.model;
+package com.example.jonathan.retrofitwebjsonviewer.model;
 
 import java.util.ArrayList;
 
